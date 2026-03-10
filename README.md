@@ -38,7 +38,57 @@ Module Objective : explain important concepts in a network communication
 
  **DATA TRANSMISSION**
  * THE BIT *
-- 
+- The term bit is an abbreviation of “binary digit” and represents the smallest piece of data. Humans interpret words and pictures, computers interpret only patterns of bits.
+- A bit is stored and transmitted as one of two possible discrete states. This can include two directions of magnetization, two distinct voltage or current levels, two distinct levels of light intensity, or any other physical system of two discrete states. For example, a light switch can be either On or Off; in binary representation, these states would correspond to 1 and 0 respectively.
+- Every input device (mouse, keyboard, voice-activated receiver) will translate human interaction into binary code for the CPU to process and store. Every output device (printer, speakers, monitors, etc.) will take binary data and translate it back into human recognizable form. Within the computer itself, all data is processed and stored as binary.
+- Computers use binary codes to represent and interpret letters, numbers and special characters with bits. A commonly used code is the American Standard Code for Information Interchange (ASCII). With ASCII, each character is represented by eight bits. For example:
+Capital letter: A = 01000001
+Number: 9 = 00111001
+Special character: # = 00100011
+- Each group of eight bits, such as the representations of letters and numbers, is known as a byte.
+
+* COMMON METHODS OF DATA TRANSMISSION *
+- After the data is transformed into a series of bits, it must be converted into signals that can be sent across the network media to its destination.
+- MEDIA : refers to the physical medium on which the signals are transmitted. Examples of media are copper wire, fiber-optic cable, and electromagnetic waves through the air.
+- A SIGNAL consists of electrical or optical patterns that are transmitted from one connected device to another.
+- These patterns represent the digital bits (i.e. the data) and travel across the media from source to destination as either a series of pulses of electricity, pulses of light, or radio waves. Signals may be converted many times before ultimately reaching the destination, as corresponding media changes between source and destination.
+- There are three common methods of signal transmission used in networks:
+> Electrical signals - Transmission is achieved by representing data as electrical pulses on copper wire.
+> Optical signals - Transmission is achieved by converting the electrical signals into light pulses.
+> Wireless signals - Transmission is achieved by using infrared, microwave, or radio waves through the air.
+- In most homes and small businesses, network signals are transmitted across copper wires (cables) or Wi-Fi enabled wireless connections. Larger networks employ fiber-optic cables in order to reliably carry signals for longer distances.
+
+** BANDWIDTH AND THROUGHPUT **
+* BANDWIDTH :
+- Streaming a movie or playing a multiplayer game requires reliable, fast connections. To support these high badwidth applications, networks have to be capable of transmitting and receiving bits at a very high rate.
+- Different physical media supports the transfer of bits at different speeds. The rate of data transfer is usually discussed in terms of bandwidth and throughput.
+- Badwidth is the capacity of a medium to carry data. Digital bandwidth measures the amount of data that can flow from one place to another in a given amount of time.
+- Bandwidth is typically measured in the number of bits that theoretically can be sent accoss the nedia in a second. common badwidth measurements are as follows :
+> thousand of bits per second.
+> Millions of bits per second.
+> Billions of bits per second.
+- The table shows the commonly used units of measure for bandwidth :
+> Bits per second - 1bps
+> Kilobites per second - 1kbps - 10*3bps
+> Megabits per second - 1mbps - 10*6bps
+> Gigabits per second - 1gbps - 10*9bps
+> terabits per second - 1tbps - 10*12bps
+
+* THROUGHPUT :
+- Like bandwidth, throughput is the measure of the transfer of bits across the media over a given period of time. However, due to a number of factors, throughput does not usually match the specified bandwidth. Many factors influence throughput including:
+> The amount of data being sent and received over the connection
+> The types of data being transmitted
+> The latency created by the number of network devices encountered between source and destination
+- Latency refers to the amount of time, including delays, for data to travel from one given point to another.
+- Throughput measurements do not take into account the validity or usefulness of the bits being transmitted and received. Many messages received through the network are not destined for specific user applications. An example would be network control messages that regulate traffic and correct errors.
+- In an internetwork or network with multiple segments, throughput cannot be faster than the slowest link of the path from sending device to the receiving device. Even if all or most of the segments have high bandwidth, it will only take one segment in the path with lower bandwidth to create a slowdown of the throughput of the entire network.
+- There are many online speed tests that can reveal the throughput of an internet connection.
+- Example to speed test : oklaa 
+
+
+
+
+
 
 
 
