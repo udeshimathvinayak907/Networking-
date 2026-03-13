@@ -127,8 +127,7 @@ Module Objective : Configure an integrated wireless router and wireless client t
 - On some wireless routers, it is possible to set up guest access. 
 - This is a special SSID coverage area that allows open access but restricts that access to using the internet only.
 - Note: Some wireless routers may label legacy mode as mixed mode.
-
-
+ 
 
 
 
